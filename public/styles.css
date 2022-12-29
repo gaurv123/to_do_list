@@ -1,0 +1,142 @@
+.container{
+    margin-top: 150px !important;
+    text-align: center !important;
+    height: 100vh;
+}
+body{
+    background: rgb(140,56,233);
+    background: linear-gradient(30deg, rgba(186,33,250,0.34750853466386555) 50%, rgba(255,255,255,0.9441471901260504) 0%,rgba(140,56,233,1)20%);
+    overflow-y: hidden;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+
+    /* height: 50vh ; */
+}
+
+@media screen and (max-width:1300px) {
+ .card{
+    width: 12rem !important;
+    height: 16rem !important;
+ }
+ .container{
+    margin-top: 25px !important;
+ }
+    
+}
+@media screen and (min-width:1600px) {
+ .card{
+    width: 20rem !important;
+    height: 23rem !important;
+ }
+ .container{
+    margin-top: 200px !important;
+ }
+    
+}
+@media screen and (max-width:800px) {
+ .card{
+    width: 10rem !important;
+    height: 12rem !important;
+ }
+ .card{
+    margin-bottom: 15px !important;
+ }
+    
+}
+@media screen and (max-width:400px) {
+ .card{
+    width: 100 !important;
+    height: 120px !important;
+ }
+ .card{
+    margin-bottom: 15px !important;
+ }
+    
+}
+.add{
+    /* margin-top: 20px; */
+    border: 0;
+}
+h1{
+
+    color: white;
+}
+.deleteone{
+    margin-right: 30px;
+}
+/* .item{
+    
+   width: 100px !important;
+} */
+.item_insert{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-color: rgb(140,56,233);
+    border-radius:10px;
+    width: 12rem;
+    
+    
+}
+.list_input{
+    display: inline-block;
+    height: 50px;
+    margin-top: 25px;
+    width: 16rem;
+    border-radius: 10px;
+
+    background-color: rgb(241, 235, 245);
+}
+.mydate{
+    border-radius: 25px;
+    padding-top: 10px;
+    color:rgb(103, 22, 195);
+    padding-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 16rem !important;
+    text-align: center;
+    background-color: rgb(241, 235, 245);
+}
+hr{
+    height: 1px ;
+    color: rgb(103, 22, 195);
+}
+p{
+    margin: 15px 0;
+    display: inline-block;
+}
+input:checked+p{
+    text-decoration-thickness: 2px !important;
+    text-decoration: line-through !important;
+    text-decoration-color: blueviolet;
+}
+
+.card{
+    color:rgb(109, 23, 207);
+    border-radius:15px;
+    display: inline-block;
+    margin-top: 0 !important;
+    font-weight: bold;
+    /* text-align: center; */
+    height:20rem;
+    overflow-y: scroll;
+    width: 16rem;
+    background-color: rgb(241, 235, 245);
+}
+button{
+    border: 0;
+}
+i{
+    color:rgb(117, 12, 238);
+    margin-left: 0;
+    
+
+}
+i:hover{
+    color:rgb(138, 46, 243);
+
+}
+.heading{
+    text-align: center;
+}
