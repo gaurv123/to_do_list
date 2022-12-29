@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/4ec194eaa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="mydate"> <%=today%></div> <br>
+    <div class="card">   
+        <!-- <p class="heading">TO DO LIST</p> -->
+            <% my_item.forEach(function(item){ %>
+                <% if(item!=""){  %>
+                    <form action="/delete" method="post">
+                    <input type="checkbox" name="checkbox" value="<%=item._id%>" onchange="this.form.submit()">
+                        <p class="item"><%=item.name%> </button></p>
+                        <hr>
+                    </form>
+                  <%  } %>
+                  <%  }) %>
+            </div><br>
+    <div class="list_input">
+        <form action="/" method="post">
+            <input type="text" class="item_insert" placeholder="New Item" name="item" autocomplete="off">
+            <button type="submit" name="butt" value= <%=today%> ><i class="fa-solid fa-circle-plus fa-2x"></i></button>
+        </form>
+    </div>
+    
+    </div>
+
+</body>
+</html>
